@@ -1,0 +1,22 @@
+# project type
+.terraform*
+.terragrunt*
+
+# files & folders in general
+.cache*
+.env*
+.devcontainer*
+
+# files & folders in particular
+/gcp-gitlab*
+/logseq*
+secrets.auto.tfvars
+terraform.tfstate*
+
+# files type
+*.log
+*.crt
+*.key
+*.csr
+*.bak
+*.pem

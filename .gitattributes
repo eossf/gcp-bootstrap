@@ -1,0 +1,26 @@
+# Default file attributes
+* text eol=lf
+
+# Define text file attributes ending with crlf
+*.json          text eol=crlf
+*.cfg           text eol=crlf
+*.py            text eol=crlf
+*.conf          text eol=crlf
+*.ps1           text eol=crlf
+*.sql           text eol=crlf
+*.tf            text eol=crlf
+*.md            text eol=crlf
+*.yml           text eol=crlf
+*.xml           text eol=crlf
+*.hcl           text eof=crlf
+*.tfvars        text eof=crlf
+Dockerfile      text eol=crlf
+.gitignore      text eol=crlf
+.gitattributes  text eol=crlf
+.env.sample     text eol=crlf
+VERSION         text eol=crlf
+
+# Define binary file attributes
+*.tar binary
+*.zip binary
+*.gz  binary

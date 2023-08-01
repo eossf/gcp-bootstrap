@@ -1,0 +1,10 @@
+variable "main_region" {}
+variable "billing_account" {}
+variable "deployment_environment" {}
+variable "org_id" {}
+variable "short_project_name" {}
+variable "long_project_name" {}
+variable "bootstrap_project_id" {}
+variable "prefix_project" {}
+variable "parent_folder_id" {}
+variable "sa" {}
