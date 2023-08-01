@@ -88,7 +88,7 @@ A Hitchhiker’s Guide to GCP Service Account Impersonation in Terraform
 gcloud auth application-default login
 
 # add default project to quota 
-gcloud auth application-default set-quota-project "inlaid-stack-394220"
+gcloud auth application-default set-quota-project "xxx"
 ````
 
 
